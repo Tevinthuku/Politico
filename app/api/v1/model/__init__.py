@@ -11,6 +11,7 @@ OFFICES = []
 
 class OfficesModel:
 
+    # This method gets the data attributes from the list of office objects
     @staticmethod
     def get_all_offices():
         return [vars(office) for office in OFFICES]
